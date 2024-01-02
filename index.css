@@ -6,3 +6,34 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+
+}
+
+.hero {
+ border-radius: 12px 12px 0 0 ;
+}
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+}
