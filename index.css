@@ -36,4 +36,8 @@ h1 {
 
 button {
     background-color: hsl(245, 75%, 52%);
+    padding: 16px 24px;
+    max-width: 200px;
+    border-radius: 12px;
+   align-items: center;
 }
