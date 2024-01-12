@@ -7,14 +7,23 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 98%);
+}
+
 .card {
     display: flex;
     flex-direction: column;
     margin: 2em auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     border-radius: 12px;
     align-items: center;
+    background-color: white;
 }
 
 .hero {
@@ -42,6 +51,7 @@ h1 {
     padding: 16px;
     border-radius: 12px;
     margin: 16px auto;
+    z-index: 5;
 }
 
 .icon {
@@ -55,7 +65,6 @@ h1 {
     flex-direction: column;
     max-width: 200px;
     width: 100%;
-    align-items: center;
 }
 
 button {
@@ -68,6 +77,10 @@ button {
     color:hsl(225, 100%, 98%);
     border: none;
     box-shadow: 10px 10px 6px hsl(224, 23%, 55%);
+}
+
+.cancel {
+    margin-bottom: 40px;
 }
 
 .attribution {
