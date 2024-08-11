@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--very-pale-blue);
+    height: 50vh;
 }
 
 .card {
@@ -92,6 +93,7 @@ h2 {
 .order__description {
     line-height: 24px;
     margin: 12px 0;
+    color: var(--desaturated-blue);
 }
 
 .icon {
@@ -143,5 +145,31 @@ button {
     text-align: center;
     font-size: 12px;
     text-decoration: none;
-    
+}
+
+@media (max-width: 390px) {
+    .card {
+        max-width: 320px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .order__description {
+        font-size: 15px;
+    }
+
+    .plan__container {
+        max-width: 276px;
+    }
+
+    .plan__description {
+        font-size: 14px;
+        margin-right: 24px;
+    }
+
+    .plan__description a {
+        font-size: 13px;
+    }
 }
